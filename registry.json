@@ -1,7 +1,17 @@
 {
   "schema": 2,
   "brand": "Pigeon Studios",
-  "updated": null,
+  "updated": "2026-10-18",
   "api": "https://raw.githubusercontent.com/WelshPigeon/pigeon-versions/main/api/v2/{slug}.json",
-  "resources": {}
+  "resources": {
+    "pigeon-dice": {
+      "name": "Pigeon Dice",
+      "kind": "free",
+      "status": "active",
+      "version": "2.0.0",
+      "date": "2026-10-18",
+      "security": false,
+      "api": "api/v2/pigeon-dice.json"
+    }
+  }
 }

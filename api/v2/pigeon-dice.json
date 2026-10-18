@@ -1,0 +1,29 @@
+{
+  "schema": 2,
+  "slug": "pigeon-dice",
+  "name": "Pigeon Dice",
+  "status": "active",
+  "notice": null,
+  "latest": {
+    "version": "2.0.0",
+    "date": "2026-10-18",
+    "title": "A complete rewrite",
+    "security": false,
+    "highlights": [
+      "Rolls with several parts, such as 2d6+1d4+3, plus keep and drop for highest and lowest.",
+      "Results float above the roller's head for players nearby who can see them.",
+      "Natural 20s and 1s are called out in chat and coloured above the roller's head.",
+      "Rolls are made on the server and sent only to players nearby in the same instance.",
+      "ox_lib and a /do command are no longer needed."
+    ],
+    "url": "https://github.com/WelshPigeon/pigeon-dice/releases/tag/v2.0.0"
+  },
+  "minimum_version": null,
+  "security_releases": [],
+  "links": {
+    "download": "https://github.com/WelshPigeon/pigeon-dice/releases/tag/v2.0.0",
+    "repository": "https://github.com/WelshPigeon/pigeon-dice",
+    "store": null,
+    "support": "https://pigeonstudios.co.uk/support/"
+  }
+}
