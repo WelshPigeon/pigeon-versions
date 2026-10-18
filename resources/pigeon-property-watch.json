@@ -1,0 +1,30 @@
+{
+  "$schema": "../schema/resource.schema.json",
+  "slug": "pigeon-property-watch",
+  "name": "Pigeon Property Watch",
+  "kind": "free",
+  "status": "active",
+  "notice": null,
+  "links": {
+    "repository": "https://github.com/WelshPigeon/pigeon-property-watch",
+    "store": null,
+    "support": "https://pigeonstudios.co.uk/support/"
+  },
+  "minimum_version": null,
+  "releases": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-18",
+      "title": "First release",
+      "security": false,
+      "url": "https://github.com/WelshPigeon/pigeon-property-watch/releases/tag/v1.0.0",
+      "notes": [
+        "Reports properties nobody has used for a set number of days to Discord.",
+        "Supports NoLag Properties and Qbox properties, detected automatically.",
+        "Early warnings, and each property reported once per stretch of inactivity.",
+        "Owner and keyholder names, a staff command, and exports for other resources.",
+        "Replaces Inactive Property Alert."
+      ]
+    }
+  ]
+}
