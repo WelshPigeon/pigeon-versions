@@ -1,0 +1,7 @@
+{
+  "schema": 2,
+  "brand": "Pigeon Studios",
+  "updated": null,
+  "api": "https://raw.githubusercontent.com/WelshPigeon/pigeon-versions/main/api/v2/{slug}.json",
+  "resources": {}
+}
