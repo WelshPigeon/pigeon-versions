@@ -253,7 +253,10 @@ expected.set('registry.json', json({
         status: r.status,
         version: r.releases[0].version,
         date: r.releases[0].date,
+        title: r.releases[0].title,
         security: r.releases[0].security,
+        repository: r.links.repository,
+        store: r.links.store,
         api: `api/v2/${r.slug}.json`,
     }])),
 }));

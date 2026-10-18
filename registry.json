@@ -10,7 +10,10 @@
       "status": "active",
       "version": "2.0.0",
       "date": "2026-10-18",
+      "title": "A complete rewrite",
       "security": false,
+      "repository": "https://github.com/WelshPigeon/pigeon-dice",
+      "store": null,
       "api": "api/v2/pigeon-dice.json"
     }
   }
