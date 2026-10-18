@@ -27,6 +27,18 @@
       "repository": "https://github.com/WelshPigeon/pigeon-property-watch",
       "store": null,
       "api": "api/v2/pigeon-property-watch.json"
+    },
+    "pigeon-vehicle-access": {
+      "name": "Pigeon Vehicle Access",
+      "kind": "free",
+      "status": "active",
+      "version": "1.0.0",
+      "date": "2026-10-18",
+      "title": "First release",
+      "security": false,
+      "repository": "https://github.com/WelshPigeon/pigeon-vehicle-access",
+      "store": null,
+      "api": "api/v2/pigeon-vehicle-access.json"
     }
   }
 }

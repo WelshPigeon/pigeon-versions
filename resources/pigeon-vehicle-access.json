@@ -1,0 +1,30 @@
+{
+  "$schema": "../schema/resource.schema.json",
+  "slug": "pigeon-vehicle-access",
+  "name": "Pigeon Vehicle Access",
+  "kind": "free",
+  "status": "active",
+  "notice": null,
+  "links": {
+    "repository": "https://github.com/WelshPigeon/pigeon-vehicle-access",
+    "store": null,
+    "support": "https://pigeonstudios.co.uk/support/"
+  },
+  "minimum_version": null,
+  "releases": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-18",
+      "title": "First release",
+      "security": false,
+      "url": "https://github.com/WelshPigeon/pigeon-vehicle-access/releases/tag/v1.0.0",
+      "notes": [
+        "Restrict vehicles by job and grade, duty, gang, ACE permission or whitelist.",
+        "The server checks drivers itself, and removes anyone who drives a stopped vehicle anyway.",
+        "Manage whitelists in game with /vehicleaccess, by server ID, citizen ID or Discord ID.",
+        "Supports Qbox (including multiple jobs) and QBCore.",
+        "Replaces Vehicle Lock."
+      ]
+    }
+  ]
+}
