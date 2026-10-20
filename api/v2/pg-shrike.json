@@ -1,0 +1,29 @@
+{
+  "schema": 2,
+  "slug": "pg-shrike",
+  "name": "Shrike",
+  "status": "active",
+  "notice": null,
+  "latest": {
+    "version": "1.0.0",
+    "date": "2026-10-20",
+    "title": "First release",
+    "security": false,
+    "highlights": [
+      "A dash-mounted radar detector with a display modelled on real detectors.",
+      "Alerts on Wraith ARS 2X and Seeker Dual DSR radar, ProLaser4 laser, patrol cars and speed cameras.",
+      "City, Highway and Auto modes, mute, low-speed muting, K filter and lockouts.",
+      "One command, /shrikesettings, for power, settings, move and resize.",
+      "QBCore, Qbox, ESX or standalone, in eight languages."
+    ],
+    "url": null
+  },
+  "minimum_version": null,
+  "security_releases": [],
+  "links": {
+    "download": "https://pigeon-studios.tebex.store/package/7752922",
+    "repository": null,
+    "store": "https://pigeon-studios.tebex.store/package/7752922",
+    "support": "https://pigeonstudios.co.uk/support/"
+  }
+}

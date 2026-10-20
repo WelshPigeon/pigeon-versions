@@ -1,9 +1,21 @@
 {
   "schema": 2,
   "brand": "Pigeon Studios",
-  "updated": "2026-10-18",
+  "updated": "2026-10-20",
   "api": "https://raw.githubusercontent.com/WelshPigeon/pigeon-versions/main/api/v2/{slug}.json",
   "resources": {
+    "pg-shrike": {
+      "name": "Shrike",
+      "kind": "paid",
+      "status": "active",
+      "version": "1.0.0",
+      "date": "2026-10-20",
+      "title": "First release",
+      "security": false,
+      "repository": null,
+      "store": "https://pigeon-studios.tebex.store/package/7752922",
+      "api": "api/v2/pg-shrike.json"
+    },
     "pigeon-dice": {
       "name": "Pigeon Dice",
       "kind": "free",
