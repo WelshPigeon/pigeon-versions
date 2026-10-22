@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "brand": "Pigeon Studios",
-  "updated": "2026-10-20",
+  "updated": "2026-10-22",
   "api": "https://raw.githubusercontent.com/WelshPigeon/pigeon-versions/main/api/v2/{slug}.json",
   "resources": {
     "pg-shrike": {
@@ -51,6 +51,18 @@
       "repository": "https://github.com/WelshPigeon/pigeon-vehicle-access",
       "store": null,
       "api": "api/v2/pigeon-vehicle-access.json"
+    },
+    "psg-vending": {
+      "name": "ROCKDOVE Vending",
+      "kind": "paid",
+      "status": "active",
+      "version": "1.0.0",
+      "date": "2026-10-22",
+      "title": "First release",
+      "security": false,
+      "repository": null,
+      "store": "https://pigeonstudios.co.uk",
+      "api": "api/v2/psg-vending.json"
     }
   }
 }
