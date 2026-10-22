@@ -107,10 +107,10 @@ local function doc(overrides)
             title = 'Smoother rolling',
             security = false,
             highlights = { 'First change', 'Second change', 'Third change', 'Fourth change' },
-            url = 'https://github.com/WelshPigeon/pigeon-test/releases/tag/v1.2.0',
+            url = 'https://github.com/pigeon-studios-uk/pigeon-test/releases/tag/v1.2.0',
         },
         security_releases = {},
-        links = { download = 'https://github.com/WelshPigeon/pigeon-test/releases/tag/v1.2.0', support = 'https://pigeonstudios.co.uk/support/' },
+        links = { download = 'https://github.com/pigeon-studios-uk/pigeon-test/releases/tag/v1.2.0', support = 'https://pigeonstudios.co.uk/support/' },
     }
     for k, v in pairs(overrides or {}) do
         if k == 'latest' then for lk, lv in pairs(v) do d.latest[lk] = lv end else d[k] = v end
@@ -203,14 +203,14 @@ test('up to date: one green line', {}, {
     contains = { 'Pigeon Test v1.2.0 is up to date.' }, lines = 1, requests = 1,
     check = function(_, requests)
         local r = requests[1]
-        if r.url ~= 'https://raw.githubusercontent.com/WelshPigeon/pigeon-versions/main/api/v2/pigeon-test.json' then return 'wrong URL: ' .. r.url end
+        if r.url ~= 'https://raw.githubusercontent.com/pigeon-studios-uk/pigeon-versions/main/api/v2/pigeon-test.json' then return 'wrong URL: ' .. r.url end
         if r.method ~= 'GET' then return 'expected GET' end
         if not r.headers['User-Agent']:match('^PigeonStudios%-UpdateChecker/') then return 'missing User-Agent' end
     end,
 })
 
 test('update available: headline, title, three highlights, link', { meta = meta('1.1.2') }, {
-    contains = { 'Update available for Pigeon Test: v1.1.2 -> v1.2.0 (released 2026-11-02)', 'Smoother rolling', '- First change', '- Third change', 'Get it: https://github.com/WelshPigeon/pigeon-test/releases/tag/v1.2.0' },
+    contains = { 'Update available for Pigeon Test: v1.1.2 -> v1.2.0 (released 2026-11-02)', 'Smoother rolling', '- First change', '- Third change', 'Get it: https://github.com/pigeon-studios-uk/pigeon-test/releases/tag/v1.2.0' },
     excludes = { 'Fourth change', 'Security' }, lines = 6,
 })
 

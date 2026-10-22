@@ -21,7 +21,7 @@ import { fileURLToPath } from 'node:url';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const RESOURCES_DIR = join(ROOT, 'resources');
 const API_DIR = join(ROOT, 'api', 'v2');
-const RAW_BASE = 'https://raw.githubusercontent.com/WelshPigeon/pigeon-versions/main';
+const RAW_BASE = 'https://raw.githubusercontent.com/pigeon-studios-uk/pigeon-versions/main';
 
 const SLUG_RE = /^[a-z0-9][a-z0-9-]{1,63}$/;
 const SEMVER_RE = /^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[A-Za-z-][0-9A-Za-z-]*)(?:\.(?:0|[1-9]\d*|\d*[A-Za-z-][0-9A-Za-z-]*))*))?(?:\+([0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*))?$/;

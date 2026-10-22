@@ -45,7 +45,7 @@ An update, with the release title, up to three highlights and where to get it:
 [script:pigeon-dice]                  - Rolls now animate for nearby players
 [script:pigeon-dice]                  - Cooldown resets correctly after reconnecting
 [script:pigeon-dice]                  - German translation
-[script:pigeon-dice]                  Get it: https://github.com/WelshPigeon/pigeon-dice/releases/tag/v1.2.0
+[script:pigeon-dice]                  Get it: https://github.com/pigeon-studios-uk/pigeon-dice/releases/tag/v1.2.0
 ```
 
 | Situation | What's printed | Colour |
@@ -104,7 +104,7 @@ Create `resources/<slug>.json`. The slug is the resource's permanent ID: lowerca
   "status": "active",
   "notice": null,
   "links": {
-    "repository": "https://github.com/WelshPigeon/pigeon-dice",
+    "repository": "https://github.com/pigeon-studios-uk/pigeon-dice",
     "store": null,
     "support": "https://pigeonstudios.co.uk/support/"
   },
@@ -115,7 +115,7 @@ Create `resources/<slug>.json`. The slug is the resource's permanent ID: lowerca
       "date": "2026-11-02",
       "title": "First release",
       "security": false,
-      "url": "https://github.com/WelshPigeon/pigeon-dice/releases/tag/v1.0.0",
+      "url": "https://github.com/pigeon-studios-uk/pigeon-dice/releases/tag/v1.0.0",
       "notes": [
         "Roll any dice with /roll, such as /roll 2d6+3.",
         "Results show above the player's head for everyone nearby."
@@ -180,7 +180,7 @@ set pigeon_update_check "off"     # never check
 
 ## The API
 
-`https://raw.githubusercontent.com/WelshPigeon/pigeon-versions/main/api/v2/<slug>.json`
+`https://raw.githubusercontent.com/pigeon-studios-uk/pigeon-versions/main/api/v2/<slug>.json`
 
 ```json
 {
@@ -195,13 +195,13 @@ set pigeon_update_check "off"     # never check
     "title": "Smoother rolling",
     "security": false,
     "highlights": ["…", "…"],
-    "url": "https://github.com/WelshPigeon/pigeon-dice/releases/tag/v1.2.0"
+    "url": "https://github.com/pigeon-studios-uk/pigeon-dice/releases/tag/v1.2.0"
   },
   "minimum_version": null,
   "security_releases": [],
   "links": {
-    "download": "https://github.com/WelshPigeon/pigeon-dice/releases/tag/v1.2.0",
-    "repository": "https://github.com/WelshPigeon/pigeon-dice",
+    "download": "https://github.com/pigeon-studios-uk/pigeon-dice/releases/tag/v1.2.0",
+    "repository": "https://github.com/pigeon-studios-uk/pigeon-dice",
     "store": null,
     "support": "https://pigeonstudios.co.uk/support/"
   }

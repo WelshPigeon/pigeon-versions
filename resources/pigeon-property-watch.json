@@ -6,7 +6,7 @@
   "status": "active",
   "notice": null,
   "links": {
-    "repository": "https://github.com/WelshPigeon/pigeon-property-watch",
+    "repository": "https://github.com/pigeon-studios-uk/pigeon-property-watch",
     "store": null,
     "support": "https://pigeonstudios.co.uk/support/"
   },
@@ -17,7 +17,7 @@
       "date": "2026-10-18",
       "title": "First release",
       "security": false,
-      "url": "https://github.com/WelshPigeon/pigeon-property-watch/releases/tag/v1.0.0",
+      "url": "https://github.com/pigeon-studios-uk/pigeon-property-watch/releases/tag/v1.0.0",
       "notes": [
         "Reports properties nobody has used for a set number of days to Discord.",
         "Supports NoLag Properties and Qbox properties, detected automatically.",

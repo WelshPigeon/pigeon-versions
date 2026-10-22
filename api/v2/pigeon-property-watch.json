@@ -16,13 +16,13 @@
       "Owner and keyholder names, a staff command, and exports for other resources.",
       "Replaces Inactive Property Alert."
     ],
-    "url": "https://github.com/WelshPigeon/pigeon-property-watch/releases/tag/v1.0.0"
+    "url": "https://github.com/pigeon-studios-uk/pigeon-property-watch/releases/tag/v1.0.0"
   },
   "minimum_version": null,
   "security_releases": [],
   "links": {
-    "download": "https://github.com/WelshPigeon/pigeon-property-watch/releases/tag/v1.0.0",
-    "repository": "https://github.com/WelshPigeon/pigeon-property-watch",
+    "download": "https://github.com/pigeon-studios-uk/pigeon-property-watch/releases/tag/v1.0.0",
+    "repository": "https://github.com/pigeon-studios-uk/pigeon-property-watch",
     "store": null,
     "support": "https://pigeonstudios.co.uk/support/"
   }

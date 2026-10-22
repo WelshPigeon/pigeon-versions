@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+### Changed
+
+- Links, badges and the update checker's registry address now point to the Pigeon Studios GitHub organisation, [pigeon-studios-uk](https://github.com/pigeon-studios-uk). Old WelshPigeon links still redirect, and copies already installed keep working.
+
 ## [2.0.0] - 2026-10-18
 
 A new registry and update checker, replacing `pigeon-resource-versions` and every per-resource checker before it. Resources released before this version keep reading the archived `pigeon-resource-versions` repository.
@@ -27,5 +31,5 @@ A new registry and update checker, replacing `pigeon-resource-versions` and ever
 - `tools/test/checker.test.lua`: 33 scenarios run against the real checker in Lua 5.4.
 - CI that runs the builder check and the checker tests on every push and pull request.
 
-[Unreleased]: https://github.com/WelshPigeon/pigeon-versions/compare/v2.0.0...HEAD
-[2.0.0]: https://github.com/WelshPigeon/pigeon-versions/releases/tag/v2.0.0
+[Unreleased]: https://github.com/pigeon-studios-uk/pigeon-versions/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/pigeon-studios-uk/pigeon-versions/releases/tag/v2.0.0

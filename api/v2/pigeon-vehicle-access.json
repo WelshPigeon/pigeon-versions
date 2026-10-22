@@ -16,13 +16,13 @@
       "Supports Qbox (including multiple jobs) and QBCore.",
       "Replaces Vehicle Lock."
     ],
-    "url": "https://github.com/WelshPigeon/pigeon-vehicle-access/releases/tag/v1.0.0"
+    "url": "https://github.com/pigeon-studios-uk/pigeon-vehicle-access/releases/tag/v1.0.0"
   },
   "minimum_version": null,
   "security_releases": [],
   "links": {
-    "download": "https://github.com/WelshPigeon/pigeon-vehicle-access/releases/tag/v1.0.0",
-    "repository": "https://github.com/WelshPigeon/pigeon-vehicle-access",
+    "download": "https://github.com/pigeon-studios-uk/pigeon-vehicle-access/releases/tag/v1.0.0",
+    "repository": "https://github.com/pigeon-studios-uk/pigeon-vehicle-access",
     "store": null,
     "support": "https://pigeonstudios.co.uk/support/"
   }

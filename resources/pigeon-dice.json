@@ -6,7 +6,7 @@
   "status": "active",
   "notice": null,
   "links": {
-    "repository": "https://github.com/WelshPigeon/pigeon-dice",
+    "repository": "https://github.com/pigeon-studios-uk/pigeon-dice",
     "store": null,
     "support": "https://pigeonstudios.co.uk/support/"
   },
@@ -17,7 +17,7 @@
       "date": "2026-10-18",
       "title": "A complete rewrite",
       "security": false,
-      "url": "https://github.com/WelshPigeon/pigeon-dice/releases/tag/v2.0.0",
+      "url": "https://github.com/pigeon-studios-uk/pigeon-dice/releases/tag/v2.0.0",
       "notes": [
         "Rolls with several parts, such as 2d6+1d4+3, plus keep and drop for highest and lowest.",
         "Results float above the roller's head for players nearby who can see them.",

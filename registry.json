@@ -2,7 +2,7 @@
   "schema": 2,
   "brand": "Pigeon Studios",
   "updated": "2026-10-22",
-  "api": "https://raw.githubusercontent.com/WelshPigeon/pigeon-versions/main/api/v2/{slug}.json",
+  "api": "https://raw.githubusercontent.com/pigeon-studios-uk/pigeon-versions/main/api/v2/{slug}.json",
   "resources": {
     "pg-shrike": {
       "name": "Shrike",
@@ -24,7 +24,7 @@
       "date": "2026-10-18",
       "title": "A complete rewrite",
       "security": false,
-      "repository": "https://github.com/WelshPigeon/pigeon-dice",
+      "repository": "https://github.com/pigeon-studios-uk/pigeon-dice",
       "store": null,
       "api": "api/v2/pigeon-dice.json"
     },
@@ -36,7 +36,7 @@
       "date": "2026-10-18",
       "title": "First release",
       "security": false,
-      "repository": "https://github.com/WelshPigeon/pigeon-property-watch",
+      "repository": "https://github.com/pigeon-studios-uk/pigeon-property-watch",
       "store": null,
       "api": "api/v2/pigeon-property-watch.json"
     },
@@ -48,7 +48,7 @@
       "date": "2026-10-18",
       "title": "First release",
       "security": false,
-      "repository": "https://github.com/WelshPigeon/pigeon-vehicle-access",
+      "repository": "https://github.com/pigeon-studios-uk/pigeon-vehicle-access",
       "store": null,
       "api": "api/v2/pigeon-vehicle-access.json"
     },
