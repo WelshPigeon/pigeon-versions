@@ -52,7 +52,7 @@
       "store": null,
       "api": "api/v2/pigeon-vehicle-access.json"
     },
-    "psg-vending": {
+    "ps-vending": {
       "name": "ROCKDOVE Vending",
       "kind": "paid",
       "status": "active",
@@ -62,7 +62,7 @@
       "security": false,
       "repository": null,
       "store": "https://pigeonstudios.co.uk",
-      "api": "api/v2/psg-vending.json"
+      "api": "api/v2/ps-vending.json"
     }
   }
 }

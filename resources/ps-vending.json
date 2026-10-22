@@ -1,6 +1,6 @@
 {
   "$schema": "../schema/resource.schema.json",
-  "slug": "psg-vending",
+  "slug": "ps-vending",
   "name": "ROCKDOVE Vending",
   "kind": "paid",
   "status": "active",
